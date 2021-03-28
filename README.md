@@ -9,8 +9,11 @@ In this capstone project, I wrote software that plans a trajectory for the end-e
 ### Key Milestones:
 
 1. Position Simulation with joint speeds
+
    In this milestone project, I wrote a simulator for the kinematics of the youBot. The main function in the simulator, `NextState`, generates the position and angle of the robot. 
+
 2. Reference Trajectory Generation
+
    For this milestone I wrote a function `TrajectoryGenerator` to generate the reference trajectory for the end-effector frame {e}. This trajectory consists of eight concatenated trajectory segments, as described below. Each trajectory segment begins and ends at rest.
    Segment 1: A trajectory to move the gripper from its initial configuration to a "standoff" configuration a few cm above the block.
    Segment 2: A trajectory to move the gripper down to the grasp position.
@@ -20,9 +23,13 @@ In this capstone project, I wrote software that plans a trajectory for the end-e
    Segment 6: A trajectory to move the gripper to the final configuration of the object.
    Segment 7: Opening of the gripper.
    Segment 8: A trajectory to move the gripper back to the "standoff" configuration.
+
 3. Wheel and joint speed control
+
    I experimented with feedback control of the mobile manipulator and wrote the function `FeedbackControl` to calculate the kinematic task-space feedforward plus feedback control law, written both as Equation (11.16) and (13.37) in the book [Modern Robotics](http://modernrobotics.org/).
+
 4. Visualization on V-REP
+
    I designed a the software to drive the youBot to transport a solid cubic. The details are shown in the above gif video.
 
 ### Key Concepts:
