@@ -4,7 +4,7 @@ In this capstone project, I wrote software that plans a trajectory for the end-e
 
 <img src="results/CoppeliaSim.gif" width="1000" />
 
-## Key Concepts and Steps
+## Milestones & Key Concepts 
 
 ### Key Milestones:
 
