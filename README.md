@@ -44,4 +44,5 @@ In this capstone project, I wrote software that plans a trajectory for the end-e
 ## Reference
 
 - [Modern Robotics](http://modernrobotics.org/)
+- [CoppeliaSim Guide](http://hades.mech.northwestern.edu/index.php/Getting_Started_with_the_CoppeliaSim_Simulator)
 
